@@ -3,3 +3,43 @@
 .fontmaps{
     font-family: 'Corinthia', cursive;
 }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+.trecard{
+    
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.custom-btn {
+	text-align: center;
+}
+
+.custom-btn a {
+	font-size: 14px;
+	color: #fff;
+	background-color: #06d7fb;
+	padding: 15px 50px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.custom-btn:before {
+	transition: All 0.3s ease;
+	-webkit-transition: All 0.3s ease;
+	-moz-transition: All 0.3s ease;
+	-o-transition: All 0.3s ease;
+	display: block;
+	color: #339933;
+	font-size: 45px;
+}
+
+.custom-btn:hover a {
+	background: rgb(255, 255, 255);
+	color: #01d2ee;
+}
+
+.flaticon-up-arrow:hover:before {
+	padding-bottom: 8px;
+}
+
